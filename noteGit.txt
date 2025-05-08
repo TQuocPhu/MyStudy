@@ -1,0 +1,30 @@
+Git dùng để quản lý mã nguồn trong quá trình phát triển phần mềm giải quyết các vấn đề:
+    Lưu trữ mã nguồn tập trung: nhất quán phiên bản của các thành viên trong nhóm.
+    Chia sẻ mã nguồn giữa các bên: FE, BE, API chia sẻ mã nguồn cho nhau.
+    Cộng tác giữa các thành viên trong nhóm: 
+    Khôi phục mã nguồn về phiên bản khác nhau: ví dụ phiên bản hiện tại không tốt bằng phiên bản trước và cần khôi phục lại.
+    Dễ dàng chỉnh sửa mã nguồn
+    Tránh xung đột
+bằng:
+    Khôi phục phiên bản cũ của file/toàn dự án
+    Xen lại quá trình push, pull.
+
+Quản lý mã nguồn tập trung: thường đc sd khi làm chung 1 công ty (private), cần chờ đợi nhau
+                            không được ưa chuộng cho lắm.
+Quản lý mã nguồn phân tán: mỗi người làm 1 việc và đẩy lên, có main để giải quyết, không cần chờ đợi nhau
+                            
+Git và GitHub
+    Git là 1 hệ thống quản lý mã nguồn phân tán, được sd để quản lý mã nguồn và ghi nhận thay đổi.
+    Sử dụng Git:
+    repository (repo): nơi chứa toàn bộ mã nguồn (kho chứa dữ liệu của git ). có 2 loại repo:
+        local repo: kho repo trên máy
+        remote repo: kho repo online
+    -Các câu lệnh git cơ bản
+        
+        git init : tạo kho repo ở trên máy.
+
+        git add . : đẩy tất cả các file vào 1 vùng nhớ ().
+
+        git commit -m "...": đẩy từ vùng nhớ tạm thời vào local repo.
+
+        
