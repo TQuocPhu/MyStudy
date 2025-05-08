@@ -25,6 +25,15 @@ Git và GitHub
 
         git add . : đẩy tất cả các file vào 1 vùng nhớ ().
 
-        git commit -m "...": đẩy từ vùng nhớ tạm thời vào local repo.
+        git commit -m "...": đẩy từ vùng nhớ tạm thời vào local repo và đánh dấu 1 mốc lịch sử
+                             tại đây.
+        
+        git remote...
+        git remote add origin https://github.com/TQuocPhu/MyStudy.git : kết nối local tới remote
+
+        git push origin master/main : đưa thay đổi lên remote
+
+        từ lần thứ hai có thể chỉ sử dụng git add, git commit, git push của các lệnh trên.
 
         
+
